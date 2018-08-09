@@ -15,3 +15,11 @@ Format:
 • Clean docker containers
 Format:
 	"docker system prune"
+
+• Force remove an image
+Format:
+	"docker rm --force [ContainerId]"
+
+• Start exited container image
+Format:
+	"docker start [ContainerId]"
