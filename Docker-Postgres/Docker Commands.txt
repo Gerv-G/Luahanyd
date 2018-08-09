@@ -1,0 +1,17 @@
+• Create instance of Postgres in Docker
+Format:
+	"docker run --name [ContainerName] -e POSTGRES_USER=[UserName] -e POSTGRES_PASSWORD=[Password] -e POSTGRES_DB=[MainDatabase] -p 5432:5432 -d [Image]"
+Sample:
+	"docker run --name some-postgres -e POSTGRES_USER=root -e POSTGRES_PASSWORD=mysecretpassword -e POSTGRES_DB=sampleDB -p 5432:5432 -d postgres"
+
+• View running docker image
+Format:
+	"docker ps"
+
+• View all running docker image
+Format:
+	"docker ps -a"
+
+• Clean docker containers
+Format:
+	"docker system prune"
