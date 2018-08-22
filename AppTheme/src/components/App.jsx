@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { Component, Fragment } from 'react'
+import { Header, Footer } from './layouts'
+import Message from './Message'
 
-export default class App extends React.Component {
+
+export default class App extends Component {
   render() {
     return (
-     <div style={{textAlign: 'center'}}>
-        <h1>Hello World</h1>
-      </div>);
+      <Fragment>
+        <Header />
+        <Message />
+        <Footer />
+      </Fragment>
+    );
   }
 }
