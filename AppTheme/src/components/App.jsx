@@ -1,14 +1,12 @@
 import React, { Component, Fragment } from 'react'
-import { Header, Footer } from './layouts'
-import Message from './Message'
+import { SiteHeader, Footer } from './layouts'
 
 
 export default class App extends Component {
   render() {
     return (
       <Fragment>
-        <Header />
-        <Message />
+        <SiteHeader />
         <Footer />
       </Fragment>
     );

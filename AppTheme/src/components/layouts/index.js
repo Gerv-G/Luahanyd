@@ -1,7 +1,7 @@
-import Header from './Header.jsx'
-import Footer from './Footer.jsx'
+import SiteHeader from './SiteHeader/SiteHeader.jsx'
+import Footer from './Footer/Footer.jsx'
 
 export{
-    Header,
+    SiteHeader,
     Footer
 }
