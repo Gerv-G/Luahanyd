@@ -1,0 +1,12 @@
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\DomainEntities\bin\Debug\netstandard2.0\DomainEntities.deps.json
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\DomainEntities\bin\Debug\netstandard2.0\DomainEntities.dll
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\DomainEntities\bin\Debug\netstandard2.0\DomainEntities.pdb
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\DomainEntities\bin\Debug\netstandard2.0\Enums.dll
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\DomainEntities\bin\Debug\netstandard2.0\Enums.pdb
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\DomainEntities\obj\Debug\netstandard2.0\DomainEntities.csprojAssemblyReference.cache
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\DomainEntities\obj\Debug\netstandard2.0\DomainEntities.csproj.CoreCompileInputs.cache
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\DomainEntities\obj\Debug\netstandard2.0\DomainEntities.AssemblyInfoInputs.cache
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\DomainEntities\obj\Debug\netstandard2.0\DomainEntities.AssemblyInfo.cs
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\DomainEntities\obj\Debug\netstandard2.0\DomainEntities.csproj.CopyComplete
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\DomainEntities\obj\Debug\netstandard2.0\DomainEntities.dll
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\DomainEntities\obj\Debug\netstandard2.0\DomainEntities.pdb
