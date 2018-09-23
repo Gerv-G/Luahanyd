@@ -1,15 +1,25 @@
 ﻿using DomainEntities;
 using System;
+using DomainServices;
+using Enums;
+using Npgsql;
 
 namespace EmployeeEncoder
 {
     public class Program
     {
+        private static readonly NpgsqlConnection _connection = new NpgsqlConnection("Server=localhost;User Id=root;" +
+                                                                                    "Password=Asdf1234;Database=TMS;");
+
+        private static readonly EmployeeService _employeeService = new EmployeeService(_connection);
+
         public static void Main(string[] args)
         {
             Console.WriteLine("---------------------- Employee Encoder System v1 ----------------------");
 
             var employee = AddEmployee();
+
+            _employeeService.Save(employee);
 
             DisplayEmployee(employee);
         }
@@ -27,8 +37,8 @@ namespace EmployeeEncoder
             employee.MiddleName = Console.ReadLine();
             Console.Write("Enter Last Name: ");
             employee.LastName = Console.ReadLine();
-            //Console.Write("Enter Gender: ");
-            //employee.Gender = Console.ReadLine();
+            Console.Write("Enter Gender(0-Female, 1-Male): \n");
+            employee.Gender = Gender.Male;
             Console.Write("Enter Birth Date(yyyy-mm-dd): ");
             employee.BirthDate = Convert.ToDateTime(Console.ReadLine());
             Console.Write("Enter Mobile Number: ");
