@@ -1,0 +1,6 @@
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.Enums\bin\Debug\BitDev.Enums.dll
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.Enums\bin\Debug\BitDev.Enums.pdb
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.Enums\obj\Debug\BitDev.Enums.csprojAssemblyReference.cache
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.Enums\obj\Debug\BitDev.Enums.csproj.CoreCompileInputs.cache
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.Enums\obj\Debug\BitDev.Enums.dll
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.Enums\obj\Debug\BitDev.Enums.pdb

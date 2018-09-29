@@ -3,19 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainEntities", "DomainEntities\DomainEntities.csproj", "{B00C413B-CA22-4BB6-9230-8D051D5E5DE1}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enums", "Enums\Enums.csproj", "{9026E3AC-F5B9-4078-AA38-2D6E101C2DF8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeEncoder", "EmployeeEncoder\EmployeeEncoder.csproj", "{E06C81A3-F938-41CA-840A-D67A65CE664D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Applications", "Test Applications", "{509957A5-7C34-4559-B609-E667F1BE1CF6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3851C7C1-1495-4CA6-8728-E50797F13775}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainServices", "DomainServices\DomainServices.csproj", "{C68182ED-F836-4348-BBAF-33ECB1428DF4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostgresqlDBInterface", "PostgresqlDBInterface\PostgresqlDBInterface.csproj", "{B6348BEF-46FB-477A-8AA8-784D31CB2D7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{72F930B0-C2BB-42BD-B651-5466340600E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{F30EA97F-CDD7-48ED-B60E-4E84B28E2DBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{DFD9DDFD-BD6A-4320-87AB-4D9B4E10EF27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{53C0F5C6-3B7B-45B5-B30B-BEE28462DBFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitDev.DataAccess", "BitDev.DataAccess\BitDev.DataAccess.csproj", "{F05EAF9D-610D-41B3-899B-0CA47A1FD691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitDev.DomainEntities", "BitDev.DomainEntities\BitDev.DomainEntities.csproj", "{F6A6DD05-16D8-4B28-8352-3D53692C2597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitDev.Enums", "BitDev.Enums\BitDev.Enums.csproj", "{E005FD26-9D68-4D8C-8602-2CFB4AA700FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitDev.DomainServices", "BitDev.DomainServices\BitDev.DomainServices.csproj", "{68579130-08E9-4057-BBB0-4123867D9739}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,26 +33,30 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B00C413B-CA22-4BB6-9230-8D051D5E5DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B00C413B-CA22-4BB6-9230-8D051D5E5DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B00C413B-CA22-4BB6-9230-8D051D5E5DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B00C413B-CA22-4BB6-9230-8D051D5E5DE1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9026E3AC-F5B9-4078-AA38-2D6E101C2DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9026E3AC-F5B9-4078-AA38-2D6E101C2DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9026E3AC-F5B9-4078-AA38-2D6E101C2DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9026E3AC-F5B9-4078-AA38-2D6E101C2DF8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E06C81A3-F938-41CA-840A-D67A65CE664D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E06C81A3-F938-41CA-840A-D67A65CE664D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E06C81A3-F938-41CA-840A-D67A65CE664D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E06C81A3-F938-41CA-840A-D67A65CE664D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C68182ED-F836-4348-BBAF-33ECB1428DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C68182ED-F836-4348-BBAF-33ECB1428DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C68182ED-F836-4348-BBAF-33ECB1428DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C68182ED-F836-4348-BBAF-33ECB1428DF4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B6348BEF-46FB-477A-8AA8-784D31CB2D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B6348BEF-46FB-477A-8AA8-784D31CB2D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6348BEF-46FB-477A-8AA8-784D31CB2D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6348BEF-46FB-477A-8AA8-784D31CB2D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F05EAF9D-610D-41B3-899B-0CA47A1FD691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05EAF9D-610D-41B3-899B-0CA47A1FD691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05EAF9D-610D-41B3-899B-0CA47A1FD691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F05EAF9D-610D-41B3-899B-0CA47A1FD691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A6DD05-16D8-4B28-8352-3D53692C2597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A6DD05-16D8-4B28-8352-3D53692C2597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A6DD05-16D8-4B28-8352-3D53692C2597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A6DD05-16D8-4B28-8352-3D53692C2597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E005FD26-9D68-4D8C-8602-2CFB4AA700FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E005FD26-9D68-4D8C-8602-2CFB4AA700FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E005FD26-9D68-4D8C-8602-2CFB4AA700FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E005FD26-9D68-4D8C-8602-2CFB4AA700FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68579130-08E9-4057-BBB0-4123867D9739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68579130-08E9-4057-BBB0-4123867D9739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68579130-08E9-4057-BBB0-4123867D9739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68579130-08E9-4057-BBB0-4123867D9739}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +64,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E06C81A3-F938-41CA-840A-D67A65CE664D} = {509957A5-7C34-4559-B609-E667F1BE1CF6}
 		{B6348BEF-46FB-477A-8AA8-784D31CB2D7A} = {509957A5-7C34-4559-B609-E667F1BE1CF6}
+		{F05EAF9D-610D-41B3-899B-0CA47A1FD691} = {DFD9DDFD-BD6A-4320-87AB-4D9B4E10EF27}
+		{F6A6DD05-16D8-4B28-8352-3D53692C2597} = {F30EA97F-CDD7-48ED-B60E-4E84B28E2DBD}
+		{E005FD26-9D68-4D8C-8602-2CFB4AA700FF} = {F30EA97F-CDD7-48ED-B60E-4E84B28E2DBD}
+		{68579130-08E9-4057-BBB0-4123867D9739} = {53C0F5C6-3B7B-45B5-B30B-BEE28462DBFA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {008BFD41-B308-4B5F-B16A-4BC1A290711B}

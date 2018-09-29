@@ -1,9 +1,0 @@
-C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\Enums\bin\Debug\netstandard2.0\Enums.deps.json
-C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\Enums\bin\Debug\netstandard2.0\Enums.dll
-C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\Enums\bin\Debug\netstandard2.0\Enums.pdb
-C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\Enums\obj\Debug\netstandard2.0\Enums.csprojAssemblyReference.cache
-C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\Enums\obj\Debug\netstandard2.0\Enums.csproj.CoreCompileInputs.cache
-C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\Enums\obj\Debug\netstandard2.0\Enums.AssemblyInfoInputs.cache
-C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\Enums\obj\Debug\netstandard2.0\Enums.AssemblyInfo.cs
-C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\Enums\obj\Debug\netstandard2.0\Enums.dll
-C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\Enums\obj\Debug\netstandard2.0\Enums.pdb

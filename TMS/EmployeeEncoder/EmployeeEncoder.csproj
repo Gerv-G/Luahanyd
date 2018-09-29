@@ -62,17 +62,21 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DomainEntities\DomainEntities.csproj">
-      <Project>{b00c413b-ca22-4bb6-9230-8d051d5e5de1}</Project>
-      <Name>DomainEntities</Name>
+    <ProjectReference Include="..\BitDev.DataAccess\BitDev.DataAccess.csproj">
+      <Project>{f05eaf9d-610d-41b3-899b-0ca47a1fd691}</Project>
+      <Name>BitDev.DataAccess</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DomainServices\DomainServices.csproj">
-      <Project>{C68182ED-F836-4348-BBAF-33ECB1428DF4}</Project>
-      <Name>DomainServices</Name>
+    <ProjectReference Include="..\BitDev.DomainEntities\BitDev.DomainEntities.csproj">
+      <Project>{f6a6dd05-16d8-4b28-8352-3d53692c2597}</Project>
+      <Name>BitDev.DomainEntities</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Enums\Enums.csproj">
-      <Project>{9026E3AC-F5B9-4078-AA38-2D6E101C2DF8}</Project>
-      <Name>Enums</Name>
+    <ProjectReference Include="..\BitDev.DomainServices\BitDev.DomainServices.csproj">
+      <Project>{68579130-08e9-4057-bbb0-4123867d9739}</Project>
+      <Name>BitDev.DomainServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BitDev.Enums\BitDev.Enums.csproj">
+      <Project>{e005fd26-9d68-4d8c-8602-2cfb4aa700ff}</Project>
+      <Name>BitDev.Enums</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

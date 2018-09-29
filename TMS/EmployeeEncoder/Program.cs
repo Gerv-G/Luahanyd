@@ -1,27 +1,27 @@
-﻿using DomainEntities;
-using System;
-using DomainServices;
-using Enums;
-using Npgsql;
+﻿using System;
+using BitDev.DataAccess.Infrastructure;
+using BitDev.DataAccess.UnitOfWork;
+using BitDev.DomainEntities;
+using BitDev.DomainServices;
+using BitDev.Enums;
 
 namespace EmployeeEncoder
 {
     public class Program
     {
-        private static readonly NpgsqlConnection _connection = new NpgsqlConnection("Server=localhost;User Id=root;" +
-                                                                                    "Password=Asdf1234;Database=TMS;");
-
-        private static readonly EmployeeService _employeeService = new EmployeeService(_connection);
-
         public static void Main(string[] args)
         {
+            var connectioFactory = new ConnectionFactory();
+            var unitofWork = new UnitOfWork(connectioFactory);
+            EmployeeService employeeService = new EmployeeService(unitofWork);
+
             Console.WriteLine("---------------------- Employee Encoder System v1 ----------------------");
 
-            var employee = AddEmployee();
+            //var employee = AddEmployee();
 
-            _employeeService.Save(employee);
+            var employees = employeeService.GetAllEmployees();
 
-            DisplayEmployee(employee);
+            //DisplayEmployee(employee);
         }
 
         public static Employee AddEmployee()
@@ -38,7 +38,7 @@ namespace EmployeeEncoder
             Console.Write("Enter Last Name: ");
             employee.LastName = Console.ReadLine();
             Console.Write("Enter Gender(0-Female, 1-Male): \n");
-            employee.Gender = Gender.Male;
+            //employee.Gender = Gender.Male;
             Console.Write("Enter Birth Date(yyyy-mm-dd): ");
             employee.BirthDate = Convert.ToDateTime(Console.ReadLine());
             Console.Write("Enter Mobile Number: ");
