@@ -19,8 +19,7 @@ namespace PostgresqlDBInterface
 
         private static void Save()
         {
-            NpgsqlConnection conn = new NpgsqlConnection("Server=localhost;User Id=root;" +
-                                "Password=Asdf1234;Database=TMS;");
+            NpgsqlConnection conn = new NpgsqlConnection("Server=localhost;User Id=root;Password=Asdf1234;Database=TMS;");
             conn.Open();
 
             // Define a query
