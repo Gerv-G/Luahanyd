@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using BitDev.DataAccess.UnitOfWork;
+using BitDev.DataTransferObjects;
 using BitDev.DomainEntities;
 //using Npgsql;
 

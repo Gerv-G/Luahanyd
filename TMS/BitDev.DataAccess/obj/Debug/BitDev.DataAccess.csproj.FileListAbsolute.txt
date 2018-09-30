@@ -115,3 +115,9 @@ C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataAccess\bin\D
 C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataAccess\bin\Debug\Dapper.xml
 C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataAccess\bin\Debug\Dapper.Contrib.dll
 C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataAccess\bin\Debug\Dapper.Contrib.xml
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataAccess\bin\Debug\BitDev.DataTransferObjects.dll
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataAccess\bin\Debug\BitDev.Enums.dll
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataAccess\bin\Debug\BitDev.DataTransferObjects.pdb
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataAccess\bin\Debug\BitDev.Enums.pdb
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataAccess\bin\Debug\BitDev.EntityFactories.dll
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataAccess\bin\Debug\BitDev.EntityFactories.pdb

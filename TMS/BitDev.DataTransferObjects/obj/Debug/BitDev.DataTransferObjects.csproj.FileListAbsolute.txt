@@ -1,0 +1,11 @@
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataTransferObjects\bin\Debug\BitDev.DataTransferObjects.dll
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataTransferObjects\bin\Debug\BitDev.DataTransferObjects.pdb
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataTransferObjects\bin\Debug\Dapper.Contrib.dll
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataTransferObjects\bin\Debug\Dapper.dll
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataTransferObjects\bin\Debug\Dapper.xml
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataTransferObjects\bin\Debug\Dapper.Contrib.xml
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataTransferObjects\obj\Debug\BitDev.DataTransferObjects.csprojAssemblyReference.cache
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataTransferObjects\obj\Debug\BitDev.DataTransferObjects.csproj.CoreCompileInputs.cache
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataTransferObjects\obj\Debug\BitDev.DataTransferObjects.csproj.CopyComplete
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataTransferObjects\obj\Debug\BitDev.DataTransferObjects.dll
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.DataTransferObjects\obj\Debug\BitDev.DataTransferObjects.pdb
