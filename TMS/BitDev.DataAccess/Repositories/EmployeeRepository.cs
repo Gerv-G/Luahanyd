@@ -1,7 +1,9 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using BitDev.DataAccess.Infrastructure;
+using BitDev.DataTransferObjects;
 using BitDev.DomainEntities;
-using Dapper;
+using BitDev.EntityFactories;
 using Dapper.Contrib.Extensions;
 
 namespace BitDev.DataAccess.Repositories
@@ -17,9 +19,21 @@ namespace BitDev.DataAccess.Repositories
 
         public IEnumerable<Employee> GetAllEmployees()
         {
-            //var query = "SELECT * FROM payroll.employees;";
+            var employeeFactory = new EmployeeFactory();
 
-            return _connectionFactory.GetConnection().GetAll<Employee>();
+            var employees = new List<Employee>();
+
+            var employeeDtos =  _connectionFactory
+                .GetConnection()
+                .GetAll<EmployeeDto>()
+                .ToList();
+
+            employeeDtos.ForEach(x =>
+            {
+                employees.Add(employeeFactory.CreateEmployee(x));
+            });
+
+            return employees;
         }
     }
 }

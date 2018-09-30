@@ -5,6 +5,8 @@ namespace BitDev.DomainEntities
 {
     public class Employee
     {
+        public int Id { get; set; }
+
         public string EmployeeNumber { get; set; }
 
         public string FirstName { get; set; }
@@ -13,7 +15,7 @@ namespace BitDev.DomainEntities
 
         public string LastName { get; set; }
 
-        public int Gender { get; set; }
+        public Gender Gender { get; set; }
 
         public DateTime BirthDate { get; set; }
 

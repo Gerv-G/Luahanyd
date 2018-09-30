@@ -66,6 +66,10 @@
       <Project>{f05eaf9d-610d-41b3-899b-0ca47a1fd691}</Project>
       <Name>BitDev.DataAccess</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BitDev.DataTransferObjects\BitDev.DataTransferObjects.csproj">
+      <Project>{DC7A9183-C58F-4E4D-BF82-FD03C08E175F}</Project>
+      <Name>BitDev.DataTransferObjects</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BitDev.DomainEntities\BitDev.DomainEntities.csproj">
       <Project>{f6a6dd05-16d8-4b28-8352-3d53692c2597}</Project>
       <Name>BitDev.DomainEntities</Name>
