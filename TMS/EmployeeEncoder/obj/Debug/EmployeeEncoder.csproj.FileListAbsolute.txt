@@ -123,7 +123,5 @@ C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\EmployeeEncoder\obj\Deb
 C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\EmployeeEncoder\obj\Debug\EmployeeEncoder.pdb
 C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\EmployeeEncoder\bin\Debug\Dapper.Contrib.dll
 C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\EmployeeEncoder\bin\Debug\Dapper.Contrib.xml
-C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\EmployeeEncoder\bin\Debug\BitDev.DataTransferObjects.dll
-C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\EmployeeEncoder\bin\Debug\BitDev.DataTransferObjects.pdb
-C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\EmployeeEncoder\bin\Debug\BitDev.EntityFactories.dll
-C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\EmployeeEncoder\bin\Debug\BitDev.EntityFactories.pdb
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\EmployeeEncoder\bin\Debug\BitDev.PersistentEntities.dll
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\EmployeeEncoder\bin\Debug\BitDev.PersistentEntities.pdb

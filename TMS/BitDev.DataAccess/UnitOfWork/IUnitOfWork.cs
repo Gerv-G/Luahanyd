@@ -5,8 +5,7 @@ namespace BitDev.DataAccess.UnitOfWork
 {
     public interface IUnitOfWork : IDisposable
     {
-        IEmployeeRepository Employees { get; }
-
-        int Complete();
+        EmployeeRepository EmployeeRepository { get; }
+        void Complete();
     }
 }

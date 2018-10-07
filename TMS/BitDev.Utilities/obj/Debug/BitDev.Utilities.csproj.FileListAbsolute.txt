@@ -1,0 +1,5 @@
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.Utilities\bin\Debug\BitDev.Utilities.dll
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.Utilities\bin\Debug\BitDev.Utilities.pdb
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.Utilities\obj\Debug\BitDev.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.Utilities\obj\Debug\BitDev.Utilities.dll
+C:\Users\KierMusngi\Documents\Side Projects\Luahanyd\TMS\BitDev.Utilities\obj\Debug\BitDev.Utilities.pdb

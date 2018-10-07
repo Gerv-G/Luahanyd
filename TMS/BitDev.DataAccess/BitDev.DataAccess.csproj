@@ -73,17 +73,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BitDev.DataTransferObjects\BitDev.DataTransferObjects.csproj">
-      <Project>{dc7a9183-c58f-4e4d-bf82-fd03c08e175f}</Project>
-      <Name>BitDev.DataTransferObjects</Name>
-    </ProjectReference>
     <ProjectReference Include="..\BitDev.DomainEntities\BitDev.DomainEntities.csproj">
       <Project>{f6a6dd05-16d8-4b28-8352-3d53692c2597}</Project>
       <Name>BitDev.DomainEntities</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BitDev.EntityFactories\BitDev.EntityFactories.csproj">
-      <Project>{d4cc6862-7d84-4fb3-b24c-b442ae01851a}</Project>
-      <Name>BitDev.EntityFactories</Name>
+    <ProjectReference Include="..\BitDev.PersistentEntities\BitDev.PersistentEntities.csproj">
+      <Project>{8180c3e9-0a16-429d-997f-1f0d1d92df99}</Project>
+      <Name>BitDev.PersistentEntities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

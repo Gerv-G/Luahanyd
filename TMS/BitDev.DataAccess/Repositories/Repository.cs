@@ -1,10 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using BitDev.PersistentEntities;
+using Dapper.Contrib.Extensions;
+using Npgsql;
 
 namespace BitDev.DataAccess.Repositories
 {
-    public class Repository<TEntity> : IRepository<TEntity> where TEntity : class 
+    public class Repository<TEntity, TPersistentEntity> : IRepository<TEntity, TPersistentEntity>
+        where TEntity : class
+        where TPersistentEntity : PersistentEntity<TEntity>
     {
+        private readonly NpgsqlTransaction _transaction;
+
+        public Repository(NpgsqlTransaction transaction)
+        {
+            _transaction = transaction;
+        }
+
+        private NpgsqlConnection Connection => _transaction.Connection;
+
         public void Add(TEntity entity)
         {
             throw new NotImplementedException();
@@ -20,14 +35,26 @@ namespace BitDev.DataAccess.Repositories
             throw new NotImplementedException();
         }
 
-        public TEntity Get(int Id)
+        public TEntity Get(int id)
         {
-            throw new NotImplementedException();
+            return Connection.Get<TPersistentEntity>(id, _transaction)
+                .ToEntity();
         }
 
         public IEnumerable<TEntity> GetAll()
         {
-            throw new NotImplementedException();
+            var employees = new List<TEntity>();
+
+            var employeePersistenEntities = Connection
+                .GetAll<TPersistentEntity>(_transaction)
+                .ToList();
+
+            employeePersistenEntities.ForEach(x =>
+            {
+                employees.Add(x.ToEntity());
+            });
+
+            return employees;
         }
     }
 }

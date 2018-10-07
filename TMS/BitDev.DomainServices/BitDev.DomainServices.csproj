@@ -49,13 +49,13 @@
       <Project>{f05eaf9d-610d-41b3-899b-0ca47a1fd691}</Project>
       <Name>BitDev.DataAccess</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BitDev.DataTransferObjects\BitDev.DataTransferObjects.csproj">
-      <Project>{dc7a9183-c58f-4e4d-bf82-fd03c08e175f}</Project>
-      <Name>BitDev.DataTransferObjects</Name>
-    </ProjectReference>
     <ProjectReference Include="..\BitDev.DomainEntities\BitDev.DomainEntities.csproj">
       <Project>{f6a6dd05-16d8-4b28-8352-3d53692c2597}</Project>
       <Name>BitDev.DomainEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BitDev.PersistentEntities\BitDev.PersistentEntities.csproj">
+      <Project>{8180C3E9-0A16-429D-997F-1F0D1D92DF99}</Project>
+      <Name>BitDev.PersistentEntities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
