@@ -1,9 +1,6 @@
 ﻿using System;
-using BitDev.DataAccess.Infrastructure;
-using BitDev.DataAccess.UnitOfWork;
 using BitDev.DomainEntities;
 using BitDev.DomainServices;
-using BitDev.Enums;
 
 namespace EmployeeEncoder
 {
@@ -11,15 +8,15 @@ namespace EmployeeEncoder
     {
         public static void Main(string[] args)
         {
-            var connectioFactory = new ConnectionFactory();
-            var unitofWork = new UnitOfWork(connectioFactory);
-            EmployeeService employeeService = new EmployeeService(unitofWork);
+            EmployeeService employeeService = new EmployeeService();
 
             Console.WriteLine("---------------------- Employee Encoder System v1 ----------------------");
 
             //var employee = AddEmployee();
 
-            var employees = employeeService.GetAllEmployees();
+            var kier = employeeService.GetByEmployeeId(1);
+
+            var employees = employeeService.GetAll();
 
             //DisplayEmployee(employee);
         }

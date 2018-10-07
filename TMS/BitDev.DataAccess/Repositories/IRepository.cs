@@ -2,7 +2,9 @@
 
 namespace BitDev.DataAccess.Repositories
 {
-    public interface IRepository<TEntity> where TEntity : class
+    public interface IRepository<TEntity, TPersistentEntity> 
+        where TEntity : class
+        where TPersistentEntity : class
     {
         void Add(TEntity entity);
 
